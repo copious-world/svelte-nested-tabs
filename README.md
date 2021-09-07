@@ -2,34 +2,44 @@
 
 ---
 
-# component-template
+# svelte-nested-tabs
 
-A base for building shareable Svelte components. Clone it with [degit](https://github.com/Rich-Harris/degit):
+This component lets you created nested tabs. 
 
-```bash
-npx degit sveltejs/component-template my-new-component
-cd my-new-component
-npm install # or yarn
-```
+The tabs are buttons that you may style (or use defaults). And, below the tabs (a row of buttons) will be the active panel.
 
-Your component's source code lives in `src/Component.svelte`.
+## Overview
+### Very quickly ...
 
-You can create a package that exports multiple components by adding them to the `src` directory and editing `src/index.js` to reexport them as named exports.
+| tab1 | *tab 2* | tab 3
+-------------------------
 
-TODO
+> You will see an active tabs contents.
+> 
+>  Makes your day. (Say it's tab 2)
+> 
+> 
+-------------------------
 
-* [ ] some firm opinions about the best way to test components
-* [ ] update `degit` so that it automates some of the setup work
+You may put any content into the panel. That may be another component or some text (rendered as html). The component may be another tab compnent.
 
+### Gist of operation
+
+You have to define a JSON structure in your application. 
+
+The nested tabs will be made possible by setting a **component** field to the Tabs object, which you import from *sevlte-nested-tabs*.
+
+The **component** field says what goes into a tab panel.
+
+Link to example...
+[svetle-nested-tabs example](http://github.com/rleddy/svelte-example)
 
 ## Setting up
 
-* Run `npm init` (or `yarn init`)
-* Replace this README with your own
+* npm install --save svelte-nested-tabs
 
 
-## Consuming components
+## How to Program
 
-Your package.json has a `"svelte"` field pointing to `src/index.js`, which allows Svelte apps to import the source code directly, if they are using a bundler plugin like [rollup-plugin-svelte](https://github.com/sveltejs/rollup-plugin-svelte) or [svelte-loader](https://github.com/sveltejs/svelte-loader) (where [`resolve.mainFields`](https://webpack.js.org/configuration/resolve/#resolve-mainfields) in your webpack config includes `"svelte"`). **This is recommended.**
 
-For everyone else, `npm run build` will bundle your component's source code into a plain JavaScript module (`dist/index.mjs`) and a UMD script (`dist/index.js`). This will happen automatically when you publish your component to npm, courtesy of the `prepublishOnly` hook in package.json.
+

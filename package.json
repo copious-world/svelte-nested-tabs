@@ -1,5 +1,6 @@
 {
-  "name": "SvelteComponent",
+  "name": "svelte-nested-tabs",
+  "version": "0.9.5",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -13,9 +14,18 @@
     "rollup-plugin-svelte": "^6.0.0",
     "svelte": "^3.0.0"
   },
-  "keywords": [
-    "svelte"
-  ],
+  "keywords": [ "svelte", "nested-tabs", "tabs" ],
+  "author": "Richard Leddy",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/copious-world/svelte-nested-tabs.git"
+  },
+  "homepage": "https://github.com/copious-world/svelte-nested-tabss#readme",
+  "funding": {
+    "type" : "GitHub Sponsors",
+    "url" : "https://github.com/sponsors/copious-world"
+  },
   "files": [
     "src",
     "dist"

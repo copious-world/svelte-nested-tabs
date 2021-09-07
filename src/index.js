@@ -1,1 +1,5 @@
-export { default as default } from './Component.svelte';
+import name from './Tabs.svelte';
+
+export default name;
+
+// https://sveltesociety.dev/help/components/
