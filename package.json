@@ -1,6 +1,6 @@
 {
   "name": "svelte-nested-tabs",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -21,7 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/copious-world/svelte-nested-tabs.git"
   },
-  "homepage": "https://github.com/copious-world/svelte-nested-tabss#readme",
+  "homepage": "https://github.com/copious-world/svelte-nested-tabs#readme",
   "funding": {
     "type" : "GitHub Sponsors",
     "url" : "https://github.com/sponsors/copious-world"
