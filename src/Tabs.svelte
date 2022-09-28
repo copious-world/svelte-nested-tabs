@@ -10,7 +10,6 @@
     
     $: active = chooser
     
-    
     function nt_select_button(id) {
         chooser = select_button(id,style,tab_list)
     }
@@ -87,4 +86,3 @@
         }
     
     </style>
-    
